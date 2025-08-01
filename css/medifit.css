@@ -1142,7 +1142,7 @@ footer {
         justify-content: center;
     }
 
-    .footer_div :nth-child(2) div{
+    .footer_div :nth-child(2) div {
         padding: 20px 0;
     }
 }

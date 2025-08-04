@@ -47,6 +47,7 @@ body {
 
 header {
     background-color: #EEEDE7;
+
 }
 
 .header {
@@ -69,6 +70,10 @@ header {
     font-size: 18px;
     font-family: 'OpenSans';
     color: #503217;
+}
+
+.li_page {
+    position: relative;
 }
 
 .header ul li {
@@ -101,8 +106,10 @@ header {
     font-size: 16px;
     font-family: 'OpenSans';
     color: #503217;
-    left: 38%;
-    top: 10%;
+    transform: translateX(-40%);
+    top: 140%;
+    background-color: #E8E6DE;
+
 }
 
 .menu_div_submenu li {
@@ -186,9 +193,9 @@ header {
     pointer-events: none;
     visibility: hidden;
     position: absolute;
-    /* left: 0%; */
+    transform: translateY(-50%);
     right: 75%;
-    top: 30%;
+    top: 50%;
     background-color: #fff;
     padding: 0 !important;
     width: 300px;
@@ -196,6 +203,8 @@ header {
     min-height: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
 }
 
 .inpnu_search[type="search"] {
@@ -204,6 +213,8 @@ header {
     -webkit-appearance: none;
     width: 274px;
     vertical-align: middle;
+    font-family: 'OpenSans';
+    color: #503217;
 }
 
 .input_submit[type="submit"] {
@@ -934,7 +945,8 @@ footer {
 
     .search {
         right: 75%;
-        top: 30%;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .hero_secrion {
@@ -1039,7 +1051,8 @@ footer {
 
     .search {
         right: 5%;
-        top: 30%;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .hero_secrion {
@@ -1153,11 +1166,11 @@ footer {
 
     .footer_div>div:nth-child(2) {
         padding: 20px 0;
-        
+
     }
 
     .footer_div>div:nth-child(3) {
-      
+
         text-align: center;
     }
 
@@ -1170,9 +1183,9 @@ footer {
         font-size: 50px;
     }
 
-        .footer_div>div:nth-child(3) {
-            justify-content: space-evenly;
-        }
+    .footer_div>div:nth-child(3) {
+        justify-content: space-evenly;
+    }
 }
 
 @media (max-width:535px) {
@@ -1200,12 +1213,17 @@ footer {
 
     .search {
         right: 0%;
-        top: 30%;
-        width: 260px;
+        width: 300px;
+
+    }
+
+    .inpnu_search[type="search"] {
+        width: 240px;
+
     }
 
     input[type="search"] {
-        width: 214px;
+        width: 274px;
     }
 
     input[type="submit"] {

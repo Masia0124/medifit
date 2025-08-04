@@ -70,6 +70,11 @@ header {
     font-size: 18px;
     font-family: 'OpenSans';
     color: #503217;
+    transition: all 0.5s;
+}
+
+.header ul li a:hover {
+    font-size: 22px;
 }
 
 .li_page {
@@ -114,6 +119,11 @@ header {
 
 .menu_div_submenu li {
     padding: 15px 26px;
+    transition: all 0.5s;
+}
+
+.menu_div_submenu li:hover {
+    color: #b38b68;
 }
 
 .header div:nth-child(1) img {
@@ -907,6 +917,8 @@ footer {
     padding-bottom: 20px;
 }
 
+
+
 .footer_contact {
     color: #8F7D6A;
     font-size: 18px;
@@ -1009,6 +1021,18 @@ footer {
 
     .feedback_div>div:nth-child(3) {
         flex-wrap: wrap;
+    }
+
+    .footer_div_address {
+        max-width: 250px;
+    }
+
+    .logo_footer span {
+        font-size: 60px;
+    }
+
+    .footer_nav {
+        max-width: 120px;
     }
 }
 
@@ -1170,9 +1194,10 @@ footer {
     }
 
     .footer_div>div:nth-child(3) {
-
         text-align: center;
     }
+
+
 
     .footer_nav li {
         font-size: 16px;
@@ -1394,13 +1419,11 @@ footer {
 
 @keyframes sun-rise {
     from {
-        /* pushes the sun down past the viewport */
         opacity: 0;
 
     }
 
     to {
-        /* returns the sun to its default position */
         opacity: 1;
 
     }

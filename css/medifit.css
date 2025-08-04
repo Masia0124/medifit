@@ -808,13 +808,15 @@ header {
 }
 
 
-.follow_us_photo>div img:hover {
+.follow_us_photo>div:hover img {
     opacity: 0.4;
+    z-index: 1;
     transition: 0.5s ease;
 }
 
 .follow_us_photo>div:hover .medifit_inst {
-    opacity: 100%;
+    opacity: 1;
+    z-index: 2;
     transition: 0.5s ease;
 }
 
@@ -1102,7 +1104,9 @@ footer {
         margin-top: 60px;
     }
 
-
+    .feedback_section {
+        padding-bottom: 100px;
+    }
 
     .feedback_slider_cont {
         height: 340px;
@@ -1140,11 +1144,35 @@ footer {
     .footer_div {
         flex-wrap: wrap;
         justify-content: center;
+        padding: 55px 0 10px 0;
     }
 
-    .footer_div :nth-child(2) div {
-        padding: 20px 0;
+    .footer_div :nth-child(1) {
+        text-align: center;
     }
+
+    .footer_div>div:nth-child(2) {
+        padding: 20px 0;
+        
+    }
+
+    .footer_div>div:nth-child(3) {
+      
+        text-align: center;
+    }
+
+    .footer_nav li {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .logo_footer span {
+        font-size: 50px;
+    }
+
+        .footer_div>div:nth-child(3) {
+            justify-content: space-evenly;
+        }
 }
 
 @media (max-width:535px) {

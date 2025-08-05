@@ -56,6 +56,10 @@ header {
     height: 91px;
 }
 
+.header_home2 {
+    background-color: #F2F2F2;
+}
+
 .header div:nth-child(1) {
     padding: 28px 0 28px 0;
 }
@@ -66,14 +70,14 @@ header {
     color: rgba(80, 50, 23, 1);
 }
 
-.header ul li a {
+.menu_div-ul>li>a {
     font-size: 18px;
     font-family: 'OpenSans';
     color: #503217;
     transition: all 0.5s;
 }
 
-.header ul li a:hover {
+.menu_div-ul>li>a:hover {
     font-size: 22px;
 }
 
@@ -109,12 +113,10 @@ header {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     font-size: 16px;
-    font-family: 'OpenSans';
-    color: #503217;
+
     transform: translateX(-40%);
     top: 140%;
     background-color: #E8E6DE;
-
 }
 
 .menu_div_submenu li {
@@ -122,7 +124,12 @@ header {
     transition: all 0.5s;
 }
 
-.menu_div_submenu li:hover {
+.menu_div_submenu li a {
+    color: #503217;
+    font-family: 'OpenSans';
+}
+
+.menu_div_submenu li :hover {
     color: #b38b68;
 }
 
@@ -305,7 +312,8 @@ header {
 }
 
 .hero_h1 button,
-.sing_up_form div:nth-child(2) button {
+.sing_up_form div:nth-child(2) button,
+.button {
     background-color: #503217;
     font-size: 18px;
     font-family: 'OpenSans';
@@ -883,7 +891,7 @@ footer {
     color: #503217;
 }
 
-.footer_div :nth-child(1) {
+.footer_div div:nth-child(1) {
     gap: 15px;
 }
 
@@ -928,14 +936,57 @@ footer {
 
 }
 
+/* HOME 2 */
+
+/* Hero section */
+
+.hero_secrion_home2 {
+    background-color: #E8E6DE;
+}
+
+.hero_div_home2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.hero_div_home2 div:nth-child(1) {
+    margin-left: 6%;
+}
+
+.hero_div_home2>div:nth-child(2) img {
+    
+}
 
 
+.hero_div_home2 div:nth-child(1) div h2 {
+    font-size: 68px;
+    color: #503217;
+    font-family: 'Poppins-Medium';
+    padding-bottom: 75px;
+    max-width: 700px;
+}
 
+.hero_offer_content>div:nth-child(1) img {
+    width: 302px;
+    height: 100%;
+}
 
+.hero_offer_content div p {
+    font-size: 18px;
+    color: #503217;
+    font-family: 'OpenSans';
+    max-width: 374px;
+    line-height: 150%;
+}
 
+.hero_offer_content {
+ align-items: flex-end;
+} 
 
-
-
+.hero_offer_content div:nth-child(2) {
+    padding-left: 30px;
+}
 
 
 

@@ -1069,6 +1069,7 @@ footer {
     flex-wrap: wrap;
     gap: 85px;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .discover_coll_div {
@@ -1103,16 +1104,70 @@ footer {
 }
 
 
+/* SHOP BY CATEGORyES */
 
 
+.shop_category_home2 {
+    background-color: #E8E6DE;
+}
 
+.shop_category_DivCarts {
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 0 120px 0;
+}
 
+.shop_category_DivCarts>div:nth-child(2) {
+    gap: 25px;
+    padding-top: 55px;
+}
 
+.shop_category__divhome2 div:nth-child(1) h3 {
+    font-size: 48px;
+    line-height: 120%;
+    color: #503217;
+    font-family: 'Poppins-Medium';
+}
 
+.shop_category_carts {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-family: 'Poppins-Medium';
+    width: 303px;
+    height: 185px;
+    justify-content: space-between;
+    align-items: center;
+    color: #503217;
+}
 
+.shop_category_carts div:nth-child(1) img {
+    padding-bottom: 5px;
+}
 
+.shop_category_carts div:nth-child(1) {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
 
+.shop_category_carts div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.shop_category_carts div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #EEEDE7;
+}
+
+.shop_category_carts div:nth-child(2) img {
+    height: 137px;
+    width: 84px;
+}
 
 
 
@@ -1506,14 +1561,40 @@ footer {
     .icons_sect_div {
         flex-wrap: wrap;
         padding-bottom: 70px;
+        justify-content: center;
+        gap: 30px;
     }
 
     .discover_coll_div h3 {
         font-size: 40px;
+        text-align: center;
     }
 
     .discover_coll_div p {
         font-size: 16px;
+    }
+
+    .shop_category_DivCarts {
+        margin: auto;
+    }
+
+    .shop_category_home2 {
+        margin: auto;
+    }
+
+    .shop_category_DivCarts {
+        padding: 80px 0;
+    }
+
+    .shop_category__divhome2 div:nth-child(1) h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .shop_category_DivCarts>div:nth-child(2) {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
     }
 }
 

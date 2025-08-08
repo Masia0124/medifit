@@ -1169,6 +1169,44 @@ footer {
     width: 84px;
 }
 
+/* CTA */
+
+.cta_div_home2 {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 105px;
+}
+
+.cta_div_home2 img:nth-child(2) {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    transform: translate(-40%, -50%);
+}
+
+.cta_div_home2 div:nth-child(3) {
+    max-width: 454px;
+    margin-left: 120px;
+}
+
+
+.cta_div_home2 div:nth-child(3) h5 {
+    font-size: 48px;
+    line-height: 120%;
+    color: #503217;
+    font-family: 'Poppins-Medium';
+    padding-bottom: 30px;
+}
+
+.cta_div_home2 div:nth-child(3) p {
+    font-size: 18px;
+    color: #503217;
+    font-family: 'OpenSans';
+    line-height: 150%;
+}
+
+
 
 
 
@@ -1325,6 +1363,30 @@ footer {
     .company {
         flex-wrap: wrap;
         gap: 30px;
+    }
+
+    .shop_category_DivCarts>div:nth-child(2) {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .cta_div_home2 div:nth-child(3) h5 {
+        font-size: 37px;
+    }
+
+    .cta_div_home2 img:nth-child(1) {
+        height: 450px;
+    }
+
+    .cta_div_home2 img:nth-child(2) {
+        height: 280px;
+        top: 40%;
+        left: 35%;
+    }
+
+    .cta_div_home2 div:nth-child(3) {
+        margin-left: 100px;
     }
 }
 
@@ -1508,6 +1570,7 @@ footer {
 
     .hero_div_home2 {
         display: block;
+        gap: 20px;
     }
 
     .hero_div_home2 div:nth-child(1) div h2 {
@@ -1595,6 +1658,33 @@ footer {
         flex-wrap: wrap;
         margin: auto;
         justify-content: center;
+    }
+
+    .cta_div_home2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cta_div_home2 img:nth-child(2) {
+        position: absolute;
+        right: -10%;
+        height: 250px;
+        top: 40%;
+        left: 55%;
+        transform: translateY(-50%)
+    }
+
+    .cta_div_home2 div:nth-child(3) {
+        padding: 100px 0 0 0;
+        margin: 0;
+    }
+
+    .cta_div_home2 div:nth-child(3) h5 {
+        text-align: center;
+    }
+
+    .cta_div_home2 div:nth-child(3) p {
+        font-size: 16px;
     }
 }
 

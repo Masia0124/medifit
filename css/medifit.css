@@ -1122,7 +1122,7 @@ footer {
     padding-top: 55px;
 }
 
-.shop_category__divhome2 div:nth-child(1) h3 {
+.shop_category_DivCarts h3 {
     font-size: 48px;
     line-height: 120%;
     color: #503217;
@@ -1206,32 +1206,90 @@ footer {
     line-height: 150%;
 }
 
+.shop_category__divhome2 {
+    position: relative;
+}
+
+.shop_category__divhome2>img {
+    position: absolute;
+    top: 1%;
+    left: -10%;
+}
+
+.cta_div_home2>img:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+}
 
 
+/* REVIEWS 2 */
 
+.reviews_2 {
+    background-color: #EEEDE7;
+}
 
+.customers_review {
+    flex-direction: column;
 
+}
 
+.customers_review>div>h3 {
+    text-align: center;
+    color: #503217;
+    font-size: 42px;
+    font-family: 'Poppins-Medium';
+    padding-top: 100px;
+}
 
+.customers_review>div:nth-child(2) {
+    gap: 30px;
+    padding-bottom: 10px;
+}
 
+.client_review {
+    margin-top: 60px;
+    transition: .5s;
+}
 
+.client_review div:nth-child(1) {
+    background-color: #fff;
+    color: #8F7D6A;
+    border-radius: 15px 15px 15px 0;
+    max-width: 414px;
+    padding: 15px 30px;
+    transition: .5s;
+}
 
+.client_review div:nth-child(1) p {
+    font-size: 18px;
+    font-family: 'OpenSans';
+    line-height: 150%;
+}
 
+.client_review div:nth-child(2) {
+    padding-top: 15px;
+    align-items: center;
+}
 
+.client_review div:nth-child(2) span {
+    font-size: 18px;
+    font-family: 'Poppins-Medium';
+    line-height: 150%;
+    color: #503217;
+    padding-left: 15px;
+}
 
+.customers_review>div:nth-child(2)>.client_review:hover {
+    margin-bottom: 20px;
+    transition: .5s;
+    margin-top: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.customers_review>div:nth-child(2)>.client_review div:nth-child(1):hover {
+    padding: 30px 30px 0 30px;
+    transition: .5s;
+}
 
 
 
@@ -1649,7 +1707,7 @@ footer {
         padding: 80px 0;
     }
 
-    .shop_category__divhome2 div:nth-child(1) h3 {
+    .shop_category_DivCarts h3 {
         font-size: 40px;
         text-align: center;
     }
@@ -1685,6 +1743,16 @@ footer {
 
     .cta_div_home2 div:nth-child(3) p {
         font-size: 16px;
+    }
+
+    .customers_review>div:nth-child(2) {
+        flex-wrap: wrap;
+    }
+
+    .customers_review>div>h3 {
+        padding-top: 80px;
+        font-size: 40px;
+        text-align: center;
     }
 }
 

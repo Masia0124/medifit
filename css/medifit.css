@@ -1423,15 +1423,66 @@ footer {
     font-family: 'Poppins-Medium';
 }
 
+/* Expect team */
+
+.expect_h3 {
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.expect_h3 h3 {
+    font-size: 58px;
+    color: #503217;
+    font-family: 'Poppins-Medium';
+    line-height: 120%;
+    max-width: 885px;
+}
+
+.expect_team {
+    padding-top: 120px;
+    gap: 30px;
+}
+
+.expect_team_s {
+    background-color: #E8E6DE;
+}
+
+.mision_div {
+    padding: 15px 0;
+}
 
 
+.mision_div:nth-child(2) span {
+    color: #503217;
+}
 
+.mision_div span {
+    color: #8F7D6A;
+    font-size: 48px;
+    font-family: 'Poppins-Medium';
+    padding-left: 15px;
+}
 
+.mision_div img {
+    width: 50px;
+}
 
+.expect_team>div:nth-child(2)>img {
+    height: 381px;
+}
 
+.expect_p {
+    max-width: 400px;
+    color: #8F7D6A;
+    align-items: end;
+}
 
+.expect_p p {
+    font-size: 18px;
+    font-family: 'OpenSans';
+    line-height: 150%;
 
-
+}
 
 
 
@@ -2134,6 +2185,26 @@ footer {
     .free_box {
         flex-wrap: wrap;
         gap: 60px;
+    }
+
+    .expect_team {
+        flex-wrap: wrap;
+    }
+
+    .expect_h3 {
+        padding: 80px 0;
+    }
+
+    .expect_h3 h3 {
+        font-size: 45px;
+    }
+
+    .expect_team {
+        padding-top: 80px;
+    }
+
+    .mision_div span {
+        font-size: 38px;
     }
 }
 

@@ -17,8 +17,9 @@ let clients_defolt = document.getElementsByClassName("clients_defolt");
 let clients_feedback = document.getElementsByClassName("clients_feedback");
 
 
-
-
+let mision_div = document.getElementsByClassName("mision_div");
+let mission_img = document.getElementsByClassName("mission_img");
+let expect_p_tekst = document.getElementsByClassName("expect_p_tekst");
 
 
 page.addEventListener("click", () => {
@@ -92,3 +93,23 @@ clients_defoltArray.forEach((element, index) => {
         console.log("Active element: " + clients_active_index + "Thid element: " + index)
     })
 });
+
+
+mision_divArray = Array.from(mision_div);
+mission_imgArray = Array.from(mission_img);
+expect_p_tekstArray = Array.from(expect_p_tekst);
+mision_divArray.forEach((element, index) => {
+    if (element.classList.contains('mision_div_active')) {
+        mision_div_active_index = index;
+        console.log('In if: ' + mision_div_active_index)
+    }
+    element.addEventListener("click", () => {
+        mision_divArray[mision_div_active_index].classList.remove("mision_div_active");
+        mission_imgArray[mision_div_active_index].classList.remove("d_block");
+        expect_p_tekstArray[mision_div_active_index].classList.remove("d-flex");
+        mision_divArray[index].classList.add("mision_div_active");
+        mission_imgArray[index].classList.add("d_block");
+        expect_p_tekstArray[index].classList.add("d-flex")
+        mision_div_active_index = index;
+    })
+})

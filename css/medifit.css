@@ -1449,11 +1449,12 @@ footer {
 
 .mision_div {
     padding: 15px 0;
+    transition: 0.5s ease;
 }
 
-
-.mision_div:nth-child(2) span {
-    color: #503217;
+.mision_div_active span {
+    color: #503217 !important;
+    transition: 0.5s ease;
 }
 
 .mision_div span {
@@ -1467,8 +1468,19 @@ footer {
     width: 50px;
 }
 
+.d_block {
+    display: block !important;
+    transition: 0.5s ease;
+    animation: 1s linear 0s infinite alternate sun-rise;
+    animation-iteration-count: 1;
+}
+
 .expect_team>div:nth-child(2)>img {
     height: 381px;
+    width: 414px;
+    border-radius: 15px;
+    display: none;
+    transition: 0.5s ease;
 }
 
 .expect_p {
@@ -1481,7 +1493,7 @@ footer {
     font-size: 18px;
     font-family: 'OpenSans';
     line-height: 150%;
-
+    display: none;
 }
 
 

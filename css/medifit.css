@@ -1346,6 +1346,300 @@ footer {
     padding-left: 5px;
 }
 
+/* ABOUT */
+
+.ab_first_s {
+    background-color: #EEEDE7;
+}
+
+.ab_first_hero {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.div_h3 {
+    font-size: 70px;
+    line-height: 120%;
+    color: #503217;
+    font-family: 'Poppins-Medium';
+    text-align: center;
+}
+
+.photo_about_first {
+    max-width: 1300px;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.photo_about_first img:nth-child(1) {
+    height: 438px;
+    width: 332px;
+}
+
+.photo_about_first img:nth-child(3) {
+    height: 362px;
+
+}
+
+.about_us {
+    padding-bottom: 120px;
+    gap: 100px;
+}
+
+.about_us span {
+    color: #503217;
+    font-size: 58px;
+    font-family: 'Poppins-Medium';
+}
+
+.about_us p {
+    font-size: 40px;
+    font-family: 'Poppins-Medium';
+    color: #503217;
+    max-width: 920px;
+    line-height: 120%;
+}
+
+.free_box {
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 120px;
+}
+
+.free_shipping {
+    gap: 25px;
+    flex-direction: column;
+}
+
+.free_shipping img {
+    height: 50px;
+}
+
+.free_shipping span {
+    font-size: 24px;
+    color: #503217;
+    font-family: 'Poppins-Medium';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1809,6 +2103,37 @@ footer {
 
     .healthcare_Insights div h3 {
         font-size: 40px;
+    }
+
+    .ab_first_hero {
+        padding-top: 70px;
+    }
+
+    .div_h3 {
+        font-size: 50px;
+    }
+
+    .photo_about_first {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_us {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .about_us span {
+        font-size: 45px;
+    }
+
+    .about_us p {
+        font-size: 30px;
+    }
+
+    .free_box {
+        flex-wrap: wrap;
+        gap: 60px;
     }
 }
 
